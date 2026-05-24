@@ -5,6 +5,7 @@ def some_func():
 def main():
     print("Hello from versioning-exploration!")
     print("adding some stuff here...")
+    print("and some more shite")
     return some_func() + some_func()
 
 
