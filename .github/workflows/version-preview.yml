@@ -13,7 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+         fetch-depth: 0
+         ref: ${{ github.base_ref }}   # checkout main or develop, not the feature branch
+
+      - name: merge pr commits for preview
+        run: git merge --no-ff origin/${{ github.head_ref }} --no-edit
+          
       - uses: astral-sh/setup-uv@v5
       - name: get version preview
         id: preview
