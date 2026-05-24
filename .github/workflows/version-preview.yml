@@ -16,6 +16,15 @@ jobs:
         with:
          fetch-depth: 0
          ref: ${{ github.base_ref }}   # checkout main or develop, not the feature branch
+      
+      - name: configure git identity
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "github-actions"
+
+      - name: merge pr commits for preview
+        run: git merge --no-ff origin/${{ github.head_ref }} --no-edit
+
 
       - name: merge pr commits for preview
         run: git merge --no-ff origin/${{ github.head_ref }} --no-edit
