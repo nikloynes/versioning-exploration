@@ -11,7 +11,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pre-commit>=4.6.0",
-    "python-semantic-release>=10.5.3",
+    "python-semantic-release>=9,<10",
 ]
 
 [tool.semantic_release]
