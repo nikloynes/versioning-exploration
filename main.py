@@ -1,4 +1,5 @@
 def some_func():
+    """adding a very necessary docstring."""
     return 1 + 1
 
 
