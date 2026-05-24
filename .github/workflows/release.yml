@@ -16,8 +16,6 @@ jobs:
           fetch-depth: 0          # full history so PSR can read all commits
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: astral-sh/setup-uv@v5
-
       - name: Bump version and tag
         uses: python-semantic-release/python-semantic-release@v9
         with:
