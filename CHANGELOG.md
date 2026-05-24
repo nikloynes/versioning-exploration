@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v0.2.2 (2026-05-24)
+
+### Bug Fixes
+
+- Adding some shiz
+  ([`ae55138`](https://github.com/nikloynes/versioning-exploration/commit/ae55138b394e206042a0bece6526b2361c2d8388))
+
+- Version-preview in PR UI
+  ([`7a93c9d`](https://github.com/nikloynes/versioning-exploration/commit/7a93c9d2cc8e937e328d92ed7f59e5293920224c))
+
+
 ## v0.2.1 (2026-05-24)
 
 ### Bug Fixes
