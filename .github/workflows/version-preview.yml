@@ -24,10 +24,6 @@ jobs:
 
       - name: merge pr commits for preview
         run: git merge --no-ff origin/${{ github.head_ref }} --no-edit
-
-
-      - name: merge pr commits for preview
-        run: git merge --no-ff origin/${{ github.head_ref }} --no-edit
           
       - uses: astral-sh/setup-uv@v5
       - name: get version preview
