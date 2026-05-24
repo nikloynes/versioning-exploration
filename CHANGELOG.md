@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.1 (2026-05-24)
+
+### Bug Fixes
+
+- Adding readme
+  ([`ac67dd6`](https://github.com/nikloynes/versioning-exploration/commit/ac67dd66a80f6cd8ffbfbdbc22affdbaeddb6538))
+
+
 ## v0.2.0 (2026-05-24)
 
 ### Chores
