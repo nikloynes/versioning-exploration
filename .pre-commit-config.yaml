@@ -1,0 +1,8 @@
+# .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v3.6.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+        args: []  # optionally list allowed types: [feat, fix, chore, ...]
