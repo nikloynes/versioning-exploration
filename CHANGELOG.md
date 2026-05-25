@@ -1,12 +1,23 @@
 # CHANGELOG
 
 
+## v0.2.4 (2026-05-25)
+
+### Chores
+
+- Merge main into feature branch
+  ([`c7a3e68`](https://github.com/nikloynes/versioning-exploration/commit/c7a3e686aff0dcd9e1aa6a1f90d3b66daf20cd2c))
+
+
 ## v0.2.3 (2026-05-25)
 
 ### Bug Fixes
 
 - Another file
   ([`a78aa61`](https://github.com/nikloynes/versioning-exploration/commit/a78aa612f48c8547c595a945f3088cbbdccc3bb0))
+
+- Cleaning up readme
+  ([`a6c0dd9`](https://github.com/nikloynes/versioning-exploration/commit/a6c0dd9c0a322f0386021628ab1685f599201cc2))
 
 - Hopefully merge now works
   ([`54e0f03`](https://github.com/nikloynes/versioning-exploration/commit/54e0f039b890917552d80d6f6f3bbf9a11be7434))
