@@ -20,6 +20,16 @@ automated semantic versioning for a uv-managed python project, using conventiona
     uv run pre-commit install --hook-type commit-msg
     ```
 
+## problems this solves
+- versioning is taken care of in a fully automated fashion, the only thing the author needs to do is install commit-msg hooks 
+    - if commits aren't prefixed by conventional commit tags (you can add custom tags), commits will fail
+- users don't need to know a priori which version number to tag their PR with -- it dynamically inherits it from whatever is ahead in the tree
+- if multiple users work on different PRs simultaneously, there is no risk of conflicting/duplicate version numbers due to using the version number git tag at the start of the process
+- retains and maintains version number in `pyproject.toml`
+- maintains a changelog file
+- previews what version number a merged PR in target branch (main or dev) will be in PR review view
+
+
 ## commit message format
 
 all commits must use [**conventional commits**](conventionalcommits.org). the pre-commit hook will reject any commit that doesn't.
@@ -67,14 +77,7 @@ canonical versions only exist on `main`.
 
 ## checking the version
 
-from code:
-
-```python
-from importlib.metadata import version
-print(version("versioning-exploration"))
-```
-
-or check pyproject.toml directly - it is always up to date after a ci release run.
+check pyproject.toml directly.
 
 ## notes
 
