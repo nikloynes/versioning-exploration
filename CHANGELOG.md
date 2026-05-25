@@ -1,6 +1,26 @@
 # CHANGELOG
 
 
+## v0.2.3 (2026-05-25)
+
+### Bug Fixes
+
+- Another file
+  ([`a78aa61`](https://github.com/nikloynes/versioning-exploration/commit/a78aa612f48c8547c595a945f3088cbbdccc3bb0))
+
+- Hopefully merge now works
+  ([`54e0f03`](https://github.com/nikloynes/versioning-exploration/commit/54e0f039b890917552d80d6f6f3bbf9a11be7434))
+
+- Hopefully merge now works
+  ([`1bfe82a`](https://github.com/nikloynes/versioning-exploration/commit/1bfe82aee01683b578e35e0e2df91823c0c53619))
+
+- Reformatting the version preview pr view
+  ([`9755dc5`](https://github.com/nikloynes/versioning-exploration/commit/9755dc584f035c7da048a99024dd32c7f6fd3d4c))
+
+- Version preview should work now?
+  ([`6ffbd56`](https://github.com/nikloynes/versioning-exploration/commit/6ffbd56a9256136f8e346f6c29b2970ebcca31fc))
+
+
 ## v0.2.2 (2026-05-24)
 
 ### Bug Fixes
