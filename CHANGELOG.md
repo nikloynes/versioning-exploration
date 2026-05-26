@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v0.3.0 (2026-05-26)
+
+### Features
+
+- Add new class
+  ([`00d3f60`](https://github.com/nikloynes/versioning-exploration/commit/00d3f607b36ae07844387d54d028a1e8a07c1a56))
+
+- Add second class, part of implementing the same feature as the first
+  ([`f4ce1c6`](https://github.com/nikloynes/versioning-exploration/commit/f4ce1c60736894b2c32dae159c51b7f21f587160))
+
+
 ## v0.2.4 (2026-05-25)
 
 ### Chores
