@@ -5,7 +5,7 @@ def some_func():
 def another_important_func():
 		"""Do something very important"""
 
-		return True
+		return False
 
 def main():
     print("Hello from versioning-exploration!")
