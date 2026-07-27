@@ -2,4 +2,4 @@ class newClass:
     pass
 
 class newClassTwo:
-    pass
+    raise SystemException
