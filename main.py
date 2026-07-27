@@ -2,6 +2,10 @@ def some_func():
     """adding a very necessary docstring."""
     return 1 + 1
 
+def another_important_func():
+		"""Do something very important"""
+
+		return False
 
 def main():
     print("Hello from versioning-exploration!")
