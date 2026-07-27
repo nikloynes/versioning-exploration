@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v0.4.0 (2026-07-27)
+
+### Documentation
+
+- Some great new docs
+  ([`7a926e4`](https://github.com/nikloynes/versioning-exploration/commit/7a926e463873a128c75f58536f6ce6f329fe684d))
+
+### Features
+
+- Add an important function
+  ([`be0a04c`](https://github.com/nikloynes/versioning-exploration/commit/be0a04cc0574da7c6c81b1902a1a90946228c548))
+
+
 ## v0.3.0 (2026-05-26)
 
 ### Features
