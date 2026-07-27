@@ -1,6 +1,25 @@
 # CHANGELOG
 
 
+## v0.4.1-dev.1 (2026-07-27)
+
+### Bug Fixes
+
+- Actually return true from our important function
+  ([#9](https://github.com/nikloynes/versioning-exploration/pull/9),
+  [`fbc4986`](https://github.com/nikloynes/versioning-exploration/commit/fbc4986a4e62091e55a69e944b5d18a1f142ca07))
+
+* fix: Actually return true from our important function
+
+- this shows off how important the function actually is
+
+* docs: more is more
+
+- is more is more
+
+* fix: Start raising exceptions arbitrarily
+
+
 ## v0.4.0 (2026-07-27)
 
 ### Documentation
