@@ -3,3 +3,6 @@ class newClass:
 
 class newClassTwo:
     raise SystemException
+
+class newClassThree:
+		pass

@@ -1,6 +1,18 @@
 # CHANGELOG
 
 
+## v0.5.0-dev.1 (2026-07-28)
+
+### Features
+
+- Add a new thing to silly ([#14](https://github.com/nikloynes/versioning-exploration/pull/14),
+  [`ca06c49`](https://github.com/nikloynes/versioning-exploration/commit/ca06c4975ae7b39b26fba3f0b2bd7109594f6a33))
+
+* feat: add a new thing to silly
+
+* fix: add another text file
+
+
 ## v0.4.1 (2026-07-27)
 
 ### Bug Fixes
