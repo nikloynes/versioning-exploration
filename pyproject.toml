@@ -1,6 +1,6 @@
 [project]
 name = "versioning-exploration"
-version = "1.1.0"
+version = "1.1.0-dev.1"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13.5"
@@ -17,6 +17,7 @@ dev = [
 [tool.semantic_release]
 version_toml = ["pyproject.toml:project.version"]
 tag_format = "v{version}"
+allow_zero_version = true
 
 [tool.semantic_release.branches.main]
 match = "main"
