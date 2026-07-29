@@ -21,3 +21,26 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           config_file: pyproject.toml
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          enable-cache: true
+          cache-dependency-glob: |
+            pyproject.toml
+            uv.lock
+
+      - name: Regenerate lockfile
+        run: uv lock
+
+      - name: Commit uv.lock if changed
+        run: |
+          if git diff --quiet -- uv.lock; then
+            echo "uv.lock already up to date"
+            exit 0
+          fi
+
+          git add uv.lock
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: sync uv.lock after release [skip ci]"
+          git push origin HEAD:${GITHUB_REF_NAME}
+
